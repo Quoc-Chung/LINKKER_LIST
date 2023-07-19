@@ -64,6 +64,7 @@ void ThemVaoCuoi(LIST &l,NODE *p){
     l.pTail=p;
    }
 }
+
 void NhapNode(LIST &l,int &x,int n){
 	for (int i=1;i<=n;i++){
 		printf("\nGia tri cua node thu %d:",i);
@@ -73,6 +74,7 @@ void NhapNode(LIST &l,int &x,int n){
 		ThemVaoCuoi(l,p);// thêm node vừa tạo vào đầu 
 	 }
 }
+
 int Count(NODE *pHead){
    int dem=0;
    while (pHead !=NULL){
@@ -81,6 +83,7 @@ int Count(NODE *pHead){
    }
    return  dem;
 }
+
 void TimMaxList(LIST l){
    int max=INT_MIN;
    for (NODE *i=l.pHead;i!=NULL; i=i->pNext){
