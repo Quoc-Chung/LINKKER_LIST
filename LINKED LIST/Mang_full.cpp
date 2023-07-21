@@ -29,6 +29,7 @@ NODE* TaoNode(int x){ // x là dữ  liệu được đưa vào data
    return p;
 }
 
+
 // 4. Thêm Node (thêm đầu hoặc cuối)
 
 void Them_Vao_Dau(LIST &l,NODE *p){

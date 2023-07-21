@@ -62,37 +62,8 @@ void ThongTinNode(LIST l){
         printf("%d  ",i->data);
     }
 }
-void LonNhatDanhSach (LIST l){
-    int max=INT_MIN;
-    for (NODE *i=l.pHead ;i!=NULL;i=i->pNext){
-        if(max <i->data){
-            max=(*i).data;
-        }
-    }
-    printf("\nNODE co data max la :%d",max);
-}
-bool NguyenTo (int n){
-    if(n<2){
-        return  false;
-    }
-    else {
-        for(int i=2;i<=sqrt(n);i++ ){
-            if(n%i==0){
-                return false;
-            }
-        }
-    }
-    return true;
-}
-void KiemTraNguyenTo(LIST l){
-    int dem=0;
-    for (NODE *i=l.pHead ;i!=NULL ;i=i->pNext){
-        if(NguyenTo(i->data)){
-            dem++;
-        }
-    }
-   printf("\nCo tat ca %d so nguyen to trong  NODE",dem);
-}
+
+
 int main(){
     int n,x;
    printf("\nNhap so luong node:");
@@ -101,7 +72,5 @@ int main(){
    KhoiTaoList(l);
    NhapMotNode(l,x,n);
    ThongTinNode(l);
-   LonNhatDanhSach (l);
-   KiemTraNguyenTo(l);
    return 0;
 }

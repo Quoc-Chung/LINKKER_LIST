@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <conio.h>
 
 // 1: Khai báo cấu trúc dữ liệu danh sách liên kết đơn các số nguyên
