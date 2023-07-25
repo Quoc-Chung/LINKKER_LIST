@@ -1,0 +1,8 @@
+---------------QUEUE---------------HÀNG ĐỢI---------
+- Queue là một cấu trúc trừu tượng trong queue phải
+làm việc theo một cơ chế FIFO
+    + ĐỐI TƯỢNG NÀO VÀO TRƯỚC THÌ SẼ RA TRƯỚC +
+             + XẾP HÀNG NHẬN LƯƠNG +
+- Lấy thì chúng ta lấy ở cuối -- Thêm thì chúng ta 
+thêm ở đầu 
+==> Dùng 2 con trỏ pHead và pTail để quản lí.

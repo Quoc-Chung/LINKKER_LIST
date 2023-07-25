@@ -1,0 +1,19 @@
+---------STACK --------------NGĂN XẾP--------------
+- Stack là một cấu trsuc trừu tượng , các đối tượng 
+trong stack phải làm việc theo một trình tự :
+   +  CÁC ĐỐI TƯỢNG VÀO SAU THÌ RA TRƯỚC +
+            +  CHO BI VÀO CHAI  +
+- IsEmpty:Kiểm tra xem stack rỗng không 
+- Push   :Thêm đối tượng vào đầu stack (Thêm Vào Đầu)
+- Pop    :Lấy phần tử đầu stack và hủy nó đi (LẤY ÔNG NẰM TRÊN)
+- Top    :Xem Thông tin của stack (NẰM BÊN TRÊN NHẤT) và
+không hủy nó đi.
+- Lấy và thêm chúng ta đều thêm vào đầu 
+--> Dùng một con trỏ pTop để quản lí.
+- Cơ chế  hủy :
++ Tạo một NODE thế mạng để trỏ tới NODE đầu stack(NODE *pNext) 
++ Gán cái giá trị cần xóa của NODE thế mạng sang x để tí có gì ta có thể lấy giá trị đầu dùng 
++ Cập nhật lại cái phần tử đầu là phần tử tiếp theo
++ Xóa phần tử thế mạng 
+
+
