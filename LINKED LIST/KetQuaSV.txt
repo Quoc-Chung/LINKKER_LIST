@@ -1,0 +1,8 @@
+
+Danh  sach trong  LIST la :
+
+221234 -- Tu Quoc Chung -- 2004 -- Nam -- Quang Ninh
+221276 -- Nguyen Van Nam -- 2004 -- Nam -- Khanh Hoa
+221204 -- Hoang Ba Hung -- 1995 -- Nam -- Nghe An
+221233 -- Nguyen Thi Hoa -- 1976 -- Nu -- Nam Dinh
+221245 -- Hoang Hai Yen -- 2007 -- Nu -- Ha Noi
